@@ -3,7 +3,7 @@ run-name: Test run for python
 
 on: [pull_request,push]
 jobs:
-  checking whearther the python code is runnin:
+  checking-python-run:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
