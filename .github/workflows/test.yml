@@ -1,6 +1,7 @@
 name: Testing github Actions
 run-name: Test run for python
-on: [push]
+
+on: [pull_request,push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
