@@ -1,0 +1,9 @@
+name: Testing github Actions
+run-name: Test run for python
+on: [push,pull]
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: python main.py
